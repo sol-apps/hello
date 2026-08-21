@@ -28,6 +28,7 @@
       box-shadow:4px 4px 0 var(--line); }
     a.home{ margin-top:22px; font-weight:700; color:var(--accent); text-decoration:none; letter-spacing:.1em; }
     a.home:hover{ text-decoration:underline; }
+    .footer{ margin-top:18px; font-size:.75rem; letter-spacing:.08em; color:var(--muted); }
   </style>
 </head>
 <body>
@@ -36,6 +37,7 @@
   <h1>Hello, solhann</h1>
   <div class="badge">&#9656; LIVE AT hello.solhann.net &mdash; START BUILDING</div>
   <a class="home" href="https://create.solhann.net">&larr; back to the gallery</a>
+  <p class="footer">Shipped by the greenlight pipeline.</p>
   <script>
     const r=document.documentElement,b=document.getElementById('t');
     const set=t=>{r.setAttribute('data-theme',t);b.textContent=t==='dark'?'LIGHT':'DARK';localStorage.setItem('solhann_theme',t)};
