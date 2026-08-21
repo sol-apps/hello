@@ -1,0 +1,11 @@
+{
+  "title": "Hello",
+  "slug": "hello",
+  "description": "Hello — an existing solhann.net app.",
+  "runtime_shape": "static",
+  "data_reach": "invented",
+  "blast_radius": "none — serves its own pages and reaches nothing else",
+  "scopes": [],
+  "tier": "green",
+  "rationale": "Backfilled from the live app in sol-apps. Declared at the narrowest shape it could have; widen deliberately if a change needs more, and say so in the pull request."
+}
